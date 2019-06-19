@@ -1,0 +1,2 @@
+webpackJsonp([1],{NHnr:function(e,p,t){"use strict";Object.defineProperty(p,"__esModule",{value:!0});var s=t("7+uW");s.a.config.productionTip=!1,new s.a({el:"#app",data:function(){return{count:0,values:[]}},methods:{add:function(e){this.values.push({exp:e})},remove:function(e){this.values.splice(e)},addtocount:function(e){this.values=[];for(var p=0;p<e;p++)this.values.push({exp:p})}}}),s.a.component("Deg",{props:["base","exp"],template:"<p>{{base}}<sup>{{exp}}</sup> = {{Math.pow(base,exp)}}</p>"})}},["NHnr"]);
+//# sourceMappingURL=app.e072469a7b2c2432231d.js.map
